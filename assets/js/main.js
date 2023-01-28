@@ -41,14 +41,14 @@
 		// Button.
 			$(
 				'<div id="navButton">' +
-					'<a href="#navPanel" class="toggle" alt="navigation panel"></a>' +
+					'<a href="#navigationPanel" class="toggle" alt="navigation panel"></a>' +
 				'</div>'
 			)
 				.appendTo($body);
 
 		// Panel.
 			$(
-				'<div id="navPanel">' +
+				'<div id="navigationPanel">' +
 					'<nav>' +
 						$('#nav').navList() +
 					'</nav>' +
@@ -62,6 +62,6 @@
 					resetScroll: true,
 					resetForms: true,
 					target: $body,
-					visibleClass: 'navPanel-visible'
+					visibleClass: 'navigationPanel-visible'
 				});
 })(jQuery);

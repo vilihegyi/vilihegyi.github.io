@@ -2494,7 +2494,7 @@ input, select, textarea {
 		}
 
 			#footer .copyright a {
-				color: rgba(148, 148, 148, 0.75);
+				color: rgba(255, 255, 255, 0.75);
 			}
 
 				#footer .copyright a:hover {
@@ -2591,7 +2591,7 @@ input, select, textarea {
 
 /* Mobile */
 
-	#navPanel, #titleBar {
+	#navigationPanel, #titleBar {
 		display: none;
 	}
 
@@ -2786,7 +2786,7 @@ input, select, textarea {
 						border-radius: 0 0 0.35em 0.35em;
 					}
 
-			#navPanel {
+			#navigationPanel {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2812,7 +2812,7 @@ input, select, textarea {
 				font-size: 1em;
 			}
 
-				#navPanel:before {
+				#navigationPanel:before {
 					content: '';
 					display: block;
 					position: absolute;
@@ -2820,11 +2820,10 @@ input, select, textarea {
 					top: 0;
 					width: 100%;
 					height: 100%;
-					background: url("images/overlay.png");
 					background-size: 128px 128px;
 				}
 
-				#navPanel .link {
+				#navigationPanel .link {
 					position: relative;
 					z-index: 1;
 					display: block;
@@ -2835,59 +2834,59 @@ input, select, textarea {
 					border-top: dotted 1px rgba(255, 255, 255, 0.05);
 				}
 
-					#navPanel .link:first-child {
+					#navigationPanel .link:first-child {
 						border-top: 0;
 					}
 
-					#navPanel .link.depth-0 {
+					#navigationPanel .link.depth-0 {
 						color: #fff;
 						font-weight: 600;
 					}
 
-				#navPanel .indent-1 {
+				#navigationPanel .indent-1 {
 					display: inline-block;
 					width: 1em;
 				}
 
-				#navPanel .indent-2 {
+				#navigationPanel .indent-2 {
 					display: inline-block;
 					width: 2em;
 				}
 
-				#navPanel .indent-3 {
+				#navigationPanel .indent-3 {
 					display: inline-block;
 					width: 3em;
 				}
 
-				#navPanel .indent-4 {
+				#navigationPanel .indent-4 {
 					display: inline-block;
 					width: 4em;
 				}
 
-				#navPanel .indent-5 {
+				#navigationPanel .indent-5 {
 					display: inline-block;
 					width: 5em;
 				}
 
-				#navPanel .depth-0 {
+				#navigationPanel .depth-0 {
 					color: #fff;
 				}
 
-			body.navPanel-visible #page-wrapper {
+			body.navigationPanel-visible #page-wrapper {
 				-moz-transform: translateY(25vh);
 				-webkit-transform: translateY(25vh);
 				-ms-transform: translateY(25vh);
 				transform: translateY(25vh);
 			}
 
-			body.navPanel-visible #navButton {
+			body.navigationPanel-visible #navButton {
 				-moz-transform: translateY(25vh);
 				-webkit-transform: translateY(25vh);
 				-ms-transform: translateY(25vh);
 				transform: translateY(25vh);
 			}
 
-			body.navPanel-visible #navPanel {
+			body.navigationPanel-visible #navigationPanel {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
